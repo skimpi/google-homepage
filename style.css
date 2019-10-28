@@ -7,3 +7,80 @@
   object-fit: cover;
   object-position: 50% 50%;
 }
+
+body {
+
+}
+
+.main {
+
+}
+
+.main__navigation {
+
+}
+
+.main__navigation--items {
+
+}
+
+.main__navigation--link {
+
+}
+
+.main__navigation--link:hover {
+
+}
+
+.main__navigation--button {
+
+}
+
+.main__content {
+
+}
+
+.main__content--logo {
+
+}
+
+.main__content--search {
+
+}
+
+.logo__image {
+
+}
+
+.search__form--input {
+
+}
+
+.search__form--input input {
+
+}
+
+.search__form--input input:hover,
+.search__form--input input:focus {
+
+}
+
+.search__form--buttons {
+
+}
+
+.search__form--buttons input {
+
+}
+
+.footer {
+
+}
+
+.footer--link {
+
+}
+
+.footer--link:hover {
+
+}
