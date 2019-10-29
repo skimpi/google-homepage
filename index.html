@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html lang= "fi" dir="ltr">
+<!DOCTYPE html> <!-- this is a copy of iamnguyenson's google project for learning reasons-->
+<html lang= "fi" dir="ltr"> <!-- språk paket vet ej vad dir är?-->
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"> <!--some sort of unicode?-->
   <link rel="stylesheet" href="style.css">
   <title>Google</title>
 </head>
@@ -10,28 +10,46 @@
 <body>
   <main class="main">
     <div class="main_navigation">
-      <nav>
+      <nav class="main_navigation--items"> <!-- vad är nav? är navigerings rutan-->
+        <a href="#!" class="main_navigation--link">Gmail</a>
+        <a href="#!" class="main_navigation--link">Images</a>
+        <a href="#!" class="main_navigation--image"><img src="/home/rickard/Desktop/TheOdinProject/google-homepage/viewbox.png"></a>
+        <a href="#!" class="main_navigation--button">Sign in</a>
       </nav>
     </div>
 
     <div class="main_content">
-      <div class="main_content--logo"></div>
+      <div class="main_content--logo">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+          alt="logo" class="logo__image">
+      </div>
       
         <div class="main_content--search">
-          <div class="search--form--input"></div>
+          <div class="search_form--input">
+            <input type="text" name="search-term">
+          </div>
+       
+        <div class="search_form--buttons">
+          <input type="submit" value="Google Search">
+          <input type="submit" value="I'm Feeling Lucky">
         </div>
-        <div class="search__form--buttons"></div>
+      </div>
     </div>
-
     </main>
 
     <footer class="footer">
-      <div class="footer__menu">
+      <div class="footer_menu">
+        <a href="#!" class="footer--link">Advertising</a>
+        <a href="#!" class="footer--link">Business</a>
+        <a href="#!" class="footer--link">About</a>
+        <a href="#!" class="footer--link">How Search Works</a>
       </div>
 
-      <div class="footer__menu">
+      <div class="footer_menu">
+        <a href="#!" class="footer--link">Privacy</a>
+        <a href="#!" class="footer--link">Terms</a>
+        <a href="#!" class="footer--link">Settings</a>
       </div>
     </footer>
-
 </body>
 </html>
