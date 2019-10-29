@@ -25,3 +25,5 @@ Browsers render default styles for elements and will change the default style of
 Instead, it will be considered like regular text. It even changes the browser's behavior regarding the element. 
 The status bar (bottom of the screen) will not be displayed when hovering on an anchor without the href property. 
 It is best to use a placeholder href value on an anchor to ensure it is treated as a hyperlink.
+
+a copy from a fellow odin student
